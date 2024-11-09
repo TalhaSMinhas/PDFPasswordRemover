@@ -1,0 +1,15 @@
+.logo {
+    height: 500px;
+    border: white 1px solid;
+}
+
+.header-text {
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

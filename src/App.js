@@ -1,19 +1,15 @@
 import './App.css';
-import HeaderLogo from "./components/HeaderLogo.js";
+import HeaderLogo from "./components/Header/HeaderLogo";
+import FileProcessBtn from "./components/FileProcessBtn/FileProcessBtn";
 
 function App() {
-    function handleClick(e) {
-        alert("the button has been clicked!");
-    }
 
     return (
         <div className="App">
-            <header className="App-header">
+            <div>
                 <HeaderLogo/>
-            </header>
-            <button onClick={handleClick}>
-                Press to Unlock
-            </button>
+                <FileProcessBtn/>
+            </div>
         </div>
     );
 }
