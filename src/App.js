@@ -1,12 +1,12 @@
 import './App.css';
 import HeaderLogo from "./components/Header/HeaderLogo";
-import FileProcessBtn from "./components/FileProcessBtn/FileProcessBtn";
+import FileProcessBtn from "./components/FileProcessing/FileProcessBtn";
 
 function App() {
 
     return (
         <div className="App">
-            <div>
+            <div className='container'>
                 <HeaderLogo/>
                 <FileProcessBtn/>
             </div>
